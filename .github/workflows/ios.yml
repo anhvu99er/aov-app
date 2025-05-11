@@ -12,10 +12,10 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v4
 
-    - name: Set up Xcode
+    - name: Select Xcode 15.3
       run: sudo xcode-select -s /Applications/Xcode_15.3.app
 
-    - name: Build .xcarchive
+    - name: Build archive
       run: |
         xcodebuild -project "AOV KD.xcodeproj" \
           -scheme "AOV_KD" \
@@ -23,15 +23,15 @@ jobs:
           -archivePath build/App.xcarchive \
           clean archive
 
-    - name: Export .ipa
+    - name: Export IPA
       run: |
         xcodebuild -exportArchive \
           -archivePath build/App.xcarchive \
-          -exportPath build \
-          -exportOptionsPlist ExportOptions.plist
+          -exportOptionsPlist ExportOptions.plist \
+          -exportPath build
 
     - name: Upload IPA artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: AOV_KD.ipa
         path: build/*.ipa
