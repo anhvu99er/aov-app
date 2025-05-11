@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AOV KD.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>2270F35C967920F8BD4B4325707982E32D7D47F4</string>
+				<key>dateExpires</key>
+				<string>5/8/26</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>N326Q6RL8G.com.vncn.hr</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>N326Q6RL8G</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>N326Q6RL8G.com.vncn.hr</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>AOV KD.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>bf3a752a-e6bf-470d-9123-a38dd2b91eb8</string>
+				<key>dateExpires</key>
+				<string>5/8/26</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.vncn.hr</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>N326Q6RL8G</string>
+				<key>name</key>
+				<string>Vu Pham</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

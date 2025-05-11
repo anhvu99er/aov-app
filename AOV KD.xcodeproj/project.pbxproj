@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC2526952DD0C6E7000FABDF /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2526942DD0C6E7000FABDF /* SplashView.swift */; };
+		FCE1FB4F2DCF80B60060278C /* AOV_KDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB4E2DCF80B60060278C /* AOV_KDApp.swift */; };
+		FCE1FB512DCF80B60060278C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB502DCF80B60060278C /* ContentView.swift */; };
+		FCE1FB532DCF80B90060278C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1FB522DCF80B90060278C /* Assets.xcassets */; };
+		FCE1FB562DCF80BA0060278C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE1FB552DCF80BA0060278C /* Preview Assets.xcassets */; };
+		FCE1FB602DCF80BA0060278C /* AOV_KDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB5F2DCF80BA0060278C /* AOV_KDTests.swift */; };
+		FCE1FB6A2DCF80BA0060278C /* AOV_KDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB692DCF80BA0060278C /* AOV_KDUITests.swift */; };
+		FCE1FB6C2DCF80BA0060278C /* AOV_KDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB6B2DCF80BA0060278C /* AOV_KDUITestsLaunchTests.swift */; };
+		FCE1FB792DCF81E50060278C /* NewLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB782DCF81E50060278C /* NewLogView.swift */; };
+		FCE1FB7B2DCF89BE0060278C /* DriverInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB7A2DCF89BE0060278C /* DriverInfoView.swift */; };
+		FCE1FB7D2DCF8BBA0060278C /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB7C2DCF8BBA0060278C /* MainTabView.swift */; };
+		FCE1FB7F2DCF8BE10060278C /* LogListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB7E2DCF8BE10060278C /* LogListView.swift */; };
+		FCE1FB812DCF938E0060278C /* VehicleLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB802DCF938E0060278C /* VehicleLog.swift */; };
+		FCE1FB832DCF93A60060278C /* LogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE1FB822DCF93A60060278C /* LogStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCE1FB5C2DCF80BA0060278C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1FB432DCF80B60060278C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1FB4A2DCF80B60060278C;
+			remoteInfo = "AOV KD";
+		};
+		FCE1FB662DCF80BA0060278C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE1FB432DCF80B60060278C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE1FB4A2DCF80B60060278C;
+			remoteInfo = "AOV KD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC2526942DD0C6E7000FABDF /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		FCE1FB4B2DCF80B60060278C /* AOV KD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOV KD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1FB4E2DCF80B60060278C /* AOV_KDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOV_KDApp.swift; sourceTree = "<group>"; };
+		FCE1FB502DCF80B60060278C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FCE1FB522DCF80B90060278C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCE1FB552DCF80BA0060278C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCE1FB5B2DCF80BA0060278C /* AOV KDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOV KDTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1FB5F2DCF80BA0060278C /* AOV_KDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOV_KDTests.swift; sourceTree = "<group>"; };
+		FCE1FB652DCF80BA0060278C /* AOV KDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AOV KDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE1FB692DCF80BA0060278C /* AOV_KDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOV_KDUITests.swift; sourceTree = "<group>"; };
+		FCE1FB6B2DCF80BA0060278C /* AOV_KDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AOV_KDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCE1FB782DCF81E50060278C /* NewLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLogView.swift; sourceTree = "<group>"; };
+		FCE1FB7A2DCF89BE0060278C /* DriverInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverInfoView.swift; sourceTree = "<group>"; };
+		FCE1FB7C2DCF8BBA0060278C /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		FCE1FB7E2DCF8BE10060278C /* LogListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogListView.swift; sourceTree = "<group>"; };
+		FCE1FB802DCF938E0060278C /* VehicleLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleLog.swift; sourceTree = "<group>"; };
+		FCE1FB822DCF93A60060278C /* LogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCE1FB482DCF80B60060278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB582DCF80BA0060278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB622DCF80BA0060278C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCE1FB422DCF80B60060278C = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB4D2DCF80B60060278C /* AOV KD */,
+				FCE1FB5E2DCF80BA0060278C /* AOV KDTests */,
+				FCE1FB682DCF80BA0060278C /* AOV KDUITests */,
+				FCE1FB4C2DCF80B60060278C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FCE1FB4C2DCF80B60060278C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB4B2DCF80B60060278C /* AOV KD.app */,
+				FCE1FB5B2DCF80BA0060278C /* AOV KDTests.xctest */,
+				FCE1FB652DCF80BA0060278C /* AOV KDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCE1FB4D2DCF80B60060278C /* AOV KD */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB4E2DCF80B60060278C /* AOV_KDApp.swift */,
+				FCE1FB782DCF81E50060278C /* NewLogView.swift */,
+				FCE1FB7A2DCF89BE0060278C /* DriverInfoView.swift */,
+				FCE1FB7C2DCF8BBA0060278C /* MainTabView.swift */,
+				FCE1FB802DCF938E0060278C /* VehicleLog.swift */,
+				FCE1FB7E2DCF8BE10060278C /* LogListView.swift */,
+				FCE1FB822DCF93A60060278C /* LogStore.swift */,
+				FC2526942DD0C6E7000FABDF /* SplashView.swift */,
+				FCE1FB502DCF80B60060278C /* ContentView.swift */,
+				FCE1FB522DCF80B90060278C /* Assets.xcassets */,
+				FCE1FB542DCF80BA0060278C /* Preview Content */,
+			);
+			path = "AOV KD";
+			sourceTree = "<group>";
+		};
+		FCE1FB542DCF80BA0060278C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB552DCF80BA0060278C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FCE1FB5E2DCF80BA0060278C /* AOV KDTests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB5F2DCF80BA0060278C /* AOV_KDTests.swift */,
+			);
+			path = "AOV KDTests";
+			sourceTree = "<group>";
+		};
+		FCE1FB682DCF80BA0060278C /* AOV KDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FCE1FB692DCF80BA0060278C /* AOV_KDUITests.swift */,
+				FCE1FB6B2DCF80BA0060278C /* AOV_KDUITestsLaunchTests.swift */,
+			);
+			path = "AOV KDUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCE1FB4A2DCF80B60060278C /* AOV KD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1FB6F2DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KD" */;
+			buildPhases = (
+				FCE1FB472DCF80B60060278C /* Sources */,
+				FCE1FB482DCF80B60060278C /* Frameworks */,
+				FCE1FB492DCF80B60060278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AOV KD";
+			productName = "AOV KD";
+			productReference = FCE1FB4B2DCF80B60060278C /* AOV KD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCE1FB5A2DCF80BA0060278C /* AOV KDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1FB722DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KDTests" */;
+			buildPhases = (
+				FCE1FB572DCF80BA0060278C /* Sources */,
+				FCE1FB582DCF80BA0060278C /* Frameworks */,
+				FCE1FB592DCF80BA0060278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1FB5D2DCF80BA0060278C /* PBXTargetDependency */,
+			);
+			name = "AOV KDTests";
+			productName = "AOV KDTests";
+			productReference = FCE1FB5B2DCF80BA0060278C /* AOV KDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FCE1FB642DCF80BA0060278C /* AOV KDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE1FB752DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KDUITests" */;
+			buildPhases = (
+				FCE1FB612DCF80BA0060278C /* Sources */,
+				FCE1FB622DCF80BA0060278C /* Frameworks */,
+				FCE1FB632DCF80BA0060278C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCE1FB672DCF80BA0060278C /* PBXTargetDependency */,
+			);
+			name = "AOV KDUITests";
+			productName = "AOV KDUITests";
+			productReference = FCE1FB652DCF80BA0060278C /* AOV KDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCE1FB432DCF80B60060278C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					FCE1FB4A2DCF80B60060278C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					FCE1FB5A2DCF80BA0060278C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FCE1FB4A2DCF80B60060278C;
+					};
+					FCE1FB642DCF80BA0060278C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FCE1FB4A2DCF80B60060278C;
+					};
+				};
+			};
+			buildConfigurationList = FCE1FB462DCF80B60060278C /* Build configuration list for PBXProject "AOV KD" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCE1FB422DCF80B60060278C;
+			productRefGroup = FCE1FB4C2DCF80B60060278C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCE1FB4A2DCF80B60060278C /* AOV KD */,
+				FCE1FB5A2DCF80BA0060278C /* AOV KDTests */,
+				FCE1FB642DCF80BA0060278C /* AOV KDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCE1FB492DCF80B60060278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1FB562DCF80BA0060278C /* Preview Assets.xcassets in Resources */,
+				FCE1FB532DCF80B90060278C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB592DCF80BA0060278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB632DCF80BA0060278C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCE1FB472DCF80B60060278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1FB832DCF93A60060278C /* LogStore.swift in Sources */,
+				FCE1FB812DCF938E0060278C /* VehicleLog.swift in Sources */,
+				FCE1FB512DCF80B60060278C /* ContentView.swift in Sources */,
+				FCE1FB7F2DCF8BE10060278C /* LogListView.swift in Sources */,
+				FCE1FB792DCF81E50060278C /* NewLogView.swift in Sources */,
+				FCE1FB7B2DCF89BE0060278C /* DriverInfoView.swift in Sources */,
+				FCE1FB4F2DCF80B60060278C /* AOV_KDApp.swift in Sources */,
+				FCE1FB7D2DCF8BBA0060278C /* MainTabView.swift in Sources */,
+				FC2526952DD0C6E7000FABDF /* SplashView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB572DCF80BA0060278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1FB602DCF80BA0060278C /* AOV_KDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCE1FB612DCF80BA0060278C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE1FB6C2DCF80BA0060278C /* AOV_KDUITestsLaunchTests.swift in Sources */,
+				FCE1FB6A2DCF80BA0060278C /* AOV_KDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCE1FB5D2DCF80BA0060278C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1FB4A2DCF80B60060278C /* AOV KD */;
+			targetProxy = FCE1FB5C2DCF80BA0060278C /* PBXContainerItemProxy */;
+		};
+		FCE1FB672DCF80BA0060278C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE1FB4A2DCF80B60060278C /* AOV KD */;
+			targetProxy = FCE1FB662DCF80BA0060278C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FCE1FB6D2DCF80BA0060278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCE1FB6E2DCF80BA0060278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FCE1FB702DCF80BA0060278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AOV KD/Preview Content\"";
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vncn.hr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE1FB712DCF80BA0060278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AOV KD/Preview Content\"";
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vncn.hr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCE1FB732DCF80BA0060278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vncn.hr.AOV-KDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOV KD.app/AOV KD";
+			};
+			name = Debug;
+		};
+		FCE1FB742DCF80BA0060278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vncn.hr.AOV-KDTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AOV KD.app/AOV KD";
+			};
+			name = Release;
+		};
+		FCE1FB762DCF80BA0060278C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vncn.hr.AOV-KDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AOV KD";
+			};
+			name = Debug;
+		};
+		FCE1FB772DCF80BA0060278C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N326Q6RL8G;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vncn.hr.AOV-KDUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AOV KD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCE1FB462DCF80B60060278C /* Build configuration list for PBXProject "AOV KD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1FB6D2DCF80BA0060278C /* Debug */,
+				FCE1FB6E2DCF80BA0060278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1FB6F2DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1FB702DCF80BA0060278C /* Debug */,
+				FCE1FB712DCF80BA0060278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1FB722DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1FB732DCF80BA0060278C /* Debug */,
+				FCE1FB742DCF80BA0060278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCE1FB752DCF80BA0060278C /* Build configuration list for PBXNativeTarget "AOV KDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE1FB762DCF80BA0060278C /* Debug */,
+				FCE1FB772DCF80BA0060278C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCE1FB432DCF80B60060278C /* Project object */;
+}
