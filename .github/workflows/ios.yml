@@ -16,12 +16,13 @@ jobs:
       run: sudo xcode-select -s /Applications/Xcode_15.3.app
 
     - name: Build archive
-      run: |
-        xcodebuild -project "AOV KD.xcodeproj" \
-          -scheme "AOV_KD" \
-          -destination 'generic/platform=iOS' \
-          -archivePath build/App.xcarchive \
-          clean archive
+  run: |
+    xcodebuild -project "AOV KD.xcodeproj" \
+      -scheme "AOV KD" \
+      -destination 'generic/platform=iOS' \
+      -archivePath build/App.xcarchive \
+      clean archive
+
 
     - name: Export IPA
       run: |
